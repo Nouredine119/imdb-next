@@ -17,7 +17,8 @@ export default function Card({ result }) {
             height={300}
             className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300'
           ></Image> ) :(
-            <img src="/assets/question.jpg" className="w-[500px] h-[300px] sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300" alt='inco'/>
+            <Image src="/assets/question.jpg" className="w-[500px] h-[300px] sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300" alt='inco'>
+              </Image>
 
           )
         }
